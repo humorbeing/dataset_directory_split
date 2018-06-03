@@ -4,9 +4,9 @@ import numpy as np
 import shutil
 
 
-dataset_root_path = '/media/ray/D43E51303E510CBC/MyStuff/Workspace/Python/dataset/'
-dataset_new_path = '/media/ray/D43E51303E510CBC/MyStuff/Workspace/Python/dataset_new/'
-dataset_origin_name = 'fish_dataset'
+dataset_root_path = '/media/ray/SSD/workspace/python/dataset/fish/'
+dataset_new_path = '/media/ray/SSD/workspace/python/dataset_new/'
+dataset_origin_name = 'original'
 origin_dataset_path = dataset_root_path + dataset_origin_name + '/'
 origin_classes = os.listdir(origin_dataset_path)
 
